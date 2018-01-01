@@ -20,3 +20,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1000px) {
+  .Stories {
+    background-color: magenta;
+    /*width: 100%;*/
+  }
+
+  .stories-grid {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
